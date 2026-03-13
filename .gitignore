@@ -1,0 +1,6 @@
+__pycache__/
+dest/
+node_modules/
+venv/
+data/
+projects/

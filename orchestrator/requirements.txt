@@ -1,0 +1,31 @@
+# Web framework
+fastapi
+uvicorn
+
+# Pydantic (FastAPI dependency, pinned to v2)
+pydantic>=2.0
+
+# LangChain — core + community integrations + text splitters
+# Install only what's needed; skip the giant langchain meta-package
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Vector store (lightweight local Chroma — no server needed)
+chromadb
+
+# Document loaders
+pypdf
+python-docx
+
+# Ollama Python client (chat + embeddings)
+ollama
+
+# Async HTTP — used to health-poll the chat server subprocess
+httpx
+
+# NOTE: sentence-transformers (~1 GB) is NOT listed here.
+# It is only needed if you choose a HuggingFace embedding model
+# (e.g. all-MiniLM-L6-v2) instead of an Ollama embedding model.
+# Install separately if required:
+#   pip install sentence-transformers
