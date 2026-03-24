@@ -7,7 +7,7 @@ The RAG system is handled by a Ollama Server.
 
 1. *Automated Installation Script*
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/rag-launchpad/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/zakachaara/rag-launchpad/main/install.sh | sh
 ```
 
 2. Or *Clone the Repo and run*
